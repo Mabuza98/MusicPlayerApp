@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Music_Player.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Music Player" HorizontalTextAlignment="Start" TextColor="White" FontSize="28"/>
+            
+        </Frame>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <BoxView Grid.Column="0"
+                 Color="Blue" />
+            <Button Grid.Column="0"
+                    BackgroundColor="Silver"
+                    TextColor="Orange" 
+                    FontSize="Micro"
+               Text="Songs"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            
+            <BoxView Grid.Column="1"
+                 Color="Blue" />
+            <Button Grid.Column="1"
+                    BackgroundColor="Silver"
+                    TextColor="Orange"
+                    FontSize="Micro"
+               Text="PlayList"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+
+            <BoxView Grid.Column="2"
+                 Color="Blue" />
+            <Button Grid.Column="2"
+                    BackgroundColor="Silver"
+                    TextColor="Orange"
+                      FontSize="Micro"
+               Text="Albums"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+            
+            <BoxView Grid.Column="3"
+                 Color="Blue" />
+            <Button Grid.Column="3"
+                    BackgroundColor="Silver"
+                    TextColor="Orange"
+                      FontSize="Micro"
+               Text="Artists"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+            <BoxView Grid.Column="4"
+                 Color="Blue" />
+            <Button Grid.Column="4"
+                    BackgroundColor="Silver"
+                    TextColor="Orange"
+                      FontSize="Micro"
+               Text="Genres"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+
+            <BoxView Grid.Column="5"
+                 Color="Blue" />
+            <Button Grid.Column="5"
+                    BackgroundColor="Silver"
+                    TextColor="Orange"
+                      FontSize="Micro"
+               Text="Folders"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+            
+        </Grid>
+
+
+</StackLayout>
+
+</ContentPage>
